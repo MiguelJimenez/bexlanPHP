@@ -24,6 +24,9 @@ body {
 	font-family: "Chalet", Helvetica, Verdana;
 	font-size: 16px;
 }
+form {
+	display: none;
+}
 nav, #principal {
 	-ms-box-sizing: border-box;
 	-moz-box-sizing: border-box;
