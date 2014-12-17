@@ -32,7 +32,9 @@
 		</div>
 		<div>
 			<label for="foto">Foto: </label>
-			<input type="file" id="foto" name="foto_fls" title="Sube tu foto">
+			<div class="adjuntar-archivo cambio">
+				<input type="file" id="foto" name="foto_fls" title="Sube tu foto">
+			</div>
 		</div>
 		<div>
 			<input type="submit" id="enviar-alta" class="cambio" name="enviar_btn" value="Agregar">
