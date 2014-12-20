@@ -49,6 +49,11 @@ input[type="date"], input[type="email"], input[type="number"], type[type="text"]
 input[type="date"]:focus, input[type="email"]:focus, input[type="number"]:focus, type[type="text"]:focus {
 	background: #C6ECF9;
 }
+input[type="email"]:disabled
+{
+	background: transparent;
+	color: #CCC;
+}
 input[type="file"]
 {
 	cursor: pointer;
@@ -121,4 +126,13 @@ ul {
 	-o-transition:all 2.5s ease-out;
 	-webkit-transition:all 2.5s ease-out;
 	transition:all 2.5s ease-out;
+}
+.mensajes
+{
+	background: yellow;
+	border-radius: .5em;
+	color: #000;
+	font-family: Helvetica, Verdana;
+	font-size: 1em;
+	padding: 0.5em;
 }

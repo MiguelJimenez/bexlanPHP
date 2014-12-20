@@ -106,7 +106,7 @@ function subir_imagen($tipo,$imagen,$email)
 					// Guardo la imagen reescalada en el servidor
 				$nombre_img_ext = "../img/fotos/".$email.$extension;
 				$nombre_img = "../img/fotos/".$email;
-				imagepng($img_reajustada,$nombre_img_ext,100);
+				imagepng($img_reajustada,$nombre_img_ext);
 					// Ejecuto la función para borrar posibles imágenes dobles para el perfil
 				borrar_imagenes($nombre_img,".png");
 				break;
