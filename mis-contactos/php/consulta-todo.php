@@ -1,1 +1,5 @@
-<p>Consulta por todos los contactos</p>
+<?php 
+$consulta = "SELECT * FROM contactos";
+include("php/tabla-resultados.php");
+
+ ?>
